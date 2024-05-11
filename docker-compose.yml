@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  api:
+    build:
+        context: ./
+        target: eval_pelaporan_api
+    ports:
+      - 5150:5150
+    restart: always
